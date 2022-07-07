@@ -1,0 +1,16 @@
+{
+    "name":"ApplicationShopping",
+    "short_name":"ApS",
+    "icons":
+        [
+        {
+          "src":"./assets/favicon.png",
+          "type":"image/png"
+        }
+        ],
+        "theme_color":"#FFFFFF",
+        "background_color":"#FFFFFF",
+        "start_url":"/ApplicationShopping/",
+        "display":"standalone",
+        "orientation":"portrait"
+}

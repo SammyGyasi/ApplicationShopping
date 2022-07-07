@@ -38,6 +38,7 @@ margin-bottom: 1rem;
     height: 2rem;
     text-align: center;
     border: 1px solid #bfbfbf;
+    border-radius: 12px;
 }
 
 #qty, #prixArticle 
