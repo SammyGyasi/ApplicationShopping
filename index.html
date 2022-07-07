@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Shopping</title>
+    <link rel="icon" href="/Shopping App/assets/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./dexie.min.js"></script>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("./sw.js");
+        });
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <form id="formArticle">
+        <nav>
+          <p>Ma Liste</p>
+        </nav>
+        <label for="nomArticle"
+          >Nom De l'Article:<input type="text" name="" id="nomArticle" required
+        /></label>
+
+        <label for="qty"
+          >Quantité:<input type="number" name="" id="qty" value="1"
+        /></label>
+
+        <label for="prixArticle"
+          >Prix:<input type="text" name="" id="prixArticle" value="0"
+        /></label>
+
+        <input type="submit" value="Ajouter" id="buttonAjouter" />
+      </form>
+    </div>
+
+    <div id="affichageListe">
+      <!--
+<div class="article">
+        <input type="checkbox" checked class="checkbox" />
+        <div class="articleInfo">
+          <p>Valencia</p>
+          <p>16dh x 3</p>
+        </div>
+        <button class="buttonSupprimer">X</button>
+      </div>
+
+      <div class="article acheté">
+        <input type="checkbox" checked class="checkbox" />
+        <div class="articleInfo">
+          <p>Valencia</p>
+          <p>16dh x 3</p>
+        </div>
+        <button class="buttonSupprimer">X</button>
+      </div>
+      -->
+    </div>
+
+    <div id="espacePrixTotal"></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

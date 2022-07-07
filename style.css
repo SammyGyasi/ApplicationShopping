@@ -1,0 +1,115 @@
+*
+{
+ margin: unset;
+ padding: unset;
+}
+
+body
+{
+    background: orangered;
+}
+
+nav
+{
+    background: green;
+    height: 3rem;
+    line-height: 3rem;
+    color: white;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+/*.container
+{
+    /*padding: 1rem;
+}
+
+*/
+
+
+#formArticle label
+{
+display: block;
+margin-bottom: 1rem;
+}
+
+#formArticle input
+{
+    height: 2rem;
+    text-align: center;
+    border: 1px solid #bfbfbf;
+}
+
+#qty, #prixArticle 
+{
+width: 3rem;
+}
+
+#buttonAjouter
+{
+    bottom: unset;
+    background: #00805a;
+    color: #fff;
+    padding: 0.5rem;
+
+}
+
+
+#affichageListe
+{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.article
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background: #eaeaea;
+    margin-bottom: 00.5rem;
+}
+
+.checkbox
+{
+    height: 100%;
+    width: 2.2rem;
+}
+
+.articleInfo
+{
+    text-align: center;
+}
+
+.buttonSupprimer
+{
+    margin: 0 0 0 auto;
+    border: unset;
+    background: #b10000;
+    color: #fff;
+    font-size: 0.8rem;
+    width: 2.2rem;
+    height: 100%;
+}
+
+.buttonSupprimer:active
+{
+ margin-top: 3px;
+}
+
+
+.acheté
+{
+    background: #00805a;
+    color: #fff;
+}
+
+.acheté p
+{
+    text-decoration: line-through;
+}
+
+#espacePrixTotal
+{
+    color: white;
+    font-weight: bold;
+}
