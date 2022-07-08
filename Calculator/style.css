@@ -10,8 +10,8 @@
     background: #FFFDD0;
     width: 25em;
     margin: 5em auto;
-    border-top-left-radius: 30px;
-    border-top-right-radius:30px ;
+    /*border-top-left-radius: 30px;
+    border-top-right-radius:30px ;*/
     
 }
 
@@ -26,8 +26,8 @@
   line-height: 8em;
   padding: 0 1.5em;
   border: 2px solid #ff966b;
-  border-top-left-radius: 30px;
-  border-top-right-radius:30px ;
+  /*border-top-left-radius: 30px;
+  border-top-right-radius:30px ;*/
 }
 
 .controls
