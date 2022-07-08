@@ -1,0 +1,17 @@
+{
+    "name":"Simple Calculator",
+    "short_name":"Simple Calc",
+
+    "icons":
+    {"src":"./assets/favicon.png",
+        "sizes":"48 x 48",
+        "type":"image/png",
+        "purpose":"any maskable"
+    },
+
+    "theme_color":"##FFFDD0;",
+    "background-color":"#FFFDD0;",
+    "start_url":"/simple-calculator/",
+    "display":"standalone",
+    "orientation":"portrait"
+}
