@@ -53,18 +53,19 @@ for (let button of controlButtons) {
         const buttonValueIsOperand = allOperands.includes(button.innerText)
 
 
-        if (button.innerText === 'C') {
+        if (button.innerText === 'Clc') {
             firstValue = secondValue = operand = ''
             return displayScreen.innerText = ''
         }
 
-        if (document.getElementsByClassName('fas-fa-power-off'))
-            window.close()
-
-        function back() {
-            var value = document.getElementById("backspace").value;
-            document.getElementById("backspace").value = value.substr(0, value.length - 1);
+        if (button.innerText === 'Del') {
+            displayScreen.innerText = displayScreen.innerText.slice(0, -1)
+            return displayScreen.innerText
         }
+
+
+
+
         if (!secondValue && button.innerText === '=') {
             return null
         }
@@ -82,6 +83,7 @@ for (let button of controlButtons) {
         //displayScreen.innerText += button.innerText
     })
 }
+
 
 
 
