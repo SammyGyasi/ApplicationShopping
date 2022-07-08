@@ -58,6 +58,9 @@ for (let button of controlButtons) {
             return displayScreen.innerText = ''
         }
 
+        if (document.getElementsByClassName('fas-fa-power-off'))
+            window.close()
+
         function back() {
             var value = document.getElementById("backspace").value;
             document.getElementById("backspace").value = value.substr(0, value.length - 1);
